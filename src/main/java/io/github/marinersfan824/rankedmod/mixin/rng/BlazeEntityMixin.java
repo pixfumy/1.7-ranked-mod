@@ -30,7 +30,7 @@ public abstract class BlazeEntityMixin extends LivingEntity {
         int i;
 
         for (i = 0; i < numRolls; i++) {
-            boolean passed = (seedResult % 16 < 8);
+            boolean passed = (seedResult % 16 < 10);
             if (passed) {
                 numDrops++;
             }

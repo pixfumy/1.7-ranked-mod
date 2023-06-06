@@ -26,7 +26,8 @@
     "worldgen.RavineMixin",
     "worldgen.SpiralStaircaseMixin",
     "worldgen.StartPieceMixin",
-    "worldgen.SurfaceChunkGeneratorMixin"
+    "worldgen.SurfaceChunkGeneratorMixin",
+    "worldgen.TempleLootMixin"
   ],
   "client": [
   ],
