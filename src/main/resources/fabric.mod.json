@@ -3,8 +3,8 @@
   "id": "racemod",
   "version": "${version}",
 
-  "name": "Racemod",
-  "description": "pre 1.9 tourney mod",
+  "name": "Ranked mod",
+  "description": "1.7 Ranked Mod",
   "authors": [
     "marinersfan824",
     "pixfumy",
@@ -13,20 +13,20 @@
     "kingcontaria"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "http://github.com/pixfumy",
     "sources": ""
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPL v3.0",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.marinersfan824.racemod.Main"
+      "io.github.marinersfan824.rankedmod.Main"
     ]
   },
   "mixins": [
-    "racemod.mixins.json"
+    "rankedmod.mixins.json"
   ],
 
   "depends": {

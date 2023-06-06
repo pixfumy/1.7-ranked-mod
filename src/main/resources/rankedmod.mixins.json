@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.marinersfan824.rankedmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TitleScreenMixin",
+    "rng.BlazeEntityMixin",
+    "rng.BlazeSpawnerMixin",
+    "rng.ChickenEntityMixin",
+    "rng.CowEntityMixin",
+    "rng.EndermanEntityMixin",
+    "rng.EyeOfEnderMixin",
+    "rng.FlintMixin",
+    "rng.LevelPropertiesMixin",
+    "rng.NetherBiomeMixin",
+    "rng.PigEntityMixin",
+    "rng.SheepEntityMixin",
+    "rng.SkeletonEntityMixin",
+    "rng.TempleMobSpawnMixin",
+    "worldgen.BiomeDecoratorMixin",
+    "worldgen.BiomeMixin",
+    "worldgen.CaveMixin",
+    "worldgen.EndPortalRoomMixin",
+    "worldgen.LakesMixin",
+    "worldgen.RavineMixin",
+    "worldgen.SpiralStaircaseMixin",
+    "worldgen.StartPieceMixin",
+    "worldgen.SurfaceChunkGeneratorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
