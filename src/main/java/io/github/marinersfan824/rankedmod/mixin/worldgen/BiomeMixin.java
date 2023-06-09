@@ -29,6 +29,6 @@ public abstract class BiomeMixin {
 
     @ModifyArg(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/SpawnEntry;<init>(Ljava/lang/Class;III)V", ordinal = 2), index = 1)
     private int increaseChickenSpawning(int weight) {
-        return weight * 3;
+        return weight + 6;
     }
 }

@@ -13,6 +13,7 @@
     "rng.EyeOfEnderMixin",
     "rng.FlintMixin",
     "rng.LevelPropertiesMixin",
+    "rng.MobSpawnerHelperMixin",
     "rng.NetherBiomeMixin",
     "rng.PigEntityMixin",
     "rng.SheepEntityMixin",
