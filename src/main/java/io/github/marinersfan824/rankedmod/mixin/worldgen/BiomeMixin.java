@@ -24,11 +24,11 @@ public abstract class BiomeMixin {
 
     @ModifyArg(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/SpawnEntry;<init>(Ljava/lang/Class;III)V", ordinal = 0), index = 1)
     private int decreaseSheepSpawning(int weight) {
-        return weight / 2;
+        return 2;
     }
 
     @ModifyArg(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/SpawnEntry;<init>(Ljava/lang/Class;III)V", ordinal = 2), index = 1)
     private int increaseChickenSpawning(int weight) {
-        return weight + 6;
+        return 20;
     }
 }
