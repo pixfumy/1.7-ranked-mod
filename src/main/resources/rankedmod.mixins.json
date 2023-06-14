@@ -24,6 +24,7 @@
     "worldgen.CaveMixin",
     "worldgen.EndPortalRoomMixin",
     "worldgen.LakesMixin",
+    "worldgen.PlainsBiomeAnimalSpawnsMixin",
     "worldgen.RavineMixin",
     "worldgen.SpiralStaircaseMixin",
     "worldgen.StartPieceMixin",

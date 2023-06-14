@@ -27,7 +27,7 @@ public class TempleLootMixin {
         )
     )
     private static int increaseIron(int weight) {
-        return weight + 4;
+        return 15;
     }
 
 }
