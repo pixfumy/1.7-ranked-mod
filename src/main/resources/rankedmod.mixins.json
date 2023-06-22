@@ -16,6 +16,7 @@
     "rng.MobSpawnerHelperMixin",
     "rng.NetherBiomeMixin",
     "rng.PigEntityMixin",
+    "rng.PlayerSpawnPointMixin",
     "rng.SheepEntityMixin",
     "rng.SkeletonEntityMixin",
     "rng.TempleMobSpawnMixin",
