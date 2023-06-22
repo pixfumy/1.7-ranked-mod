@@ -16,6 +16,8 @@
     "rng.MobSpawnerHelperMixin",
     "rng.NetherBiomeMixin",
     "rng.PigEntityMixin",
+    "rng.playerspawnstandardization.ServerPlayerEntityMixin",
+    "rng.playerspawnstandardization.MinecraftServerMixin",
     "rng.SheepEntityMixin",
     "rng.SkeletonEntityMixin",
     "rng.TempleMobSpawnMixin",
