@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.Random;
 
 @Mixin(LakesFeature.class)
-public class LakesMixin {
+public class RemoveLavaLakesBelowY60Mixin {
     @Inject(method = "method_4028", at = @At("HEAD"), cancellable = true)
     public void method_4028(World world, Random random, int i, int j, int k, CallbackInfoReturnable<Boolean> cir) {
         if (j <= 55) {

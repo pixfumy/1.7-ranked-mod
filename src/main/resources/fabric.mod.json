@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "racemod",
+  "id": "rankedmod",
   "version": "${version}",
 
   "name": "Ranked mod",

@@ -1,8 +1,7 @@
-package io.github.marinersfan824.rankedmod.mixin.rng;
+package io.github.marinersfan824.rankedmod.mixin.rng.mobspawn;
 
 import io.github.marinersfan824.rankedmod.mixinterface.ILevelProperties;
 import net.minecraft.entity.MobSpawnerHelper;
-import net.minecraft.entity.SpawnEntry;
 import net.minecraft.util.collection.Weight;
 import net.minecraft.util.collection.Weighting;
 import net.minecraft.world.World;
@@ -15,11 +14,9 @@ import java.util.Collection;
 import java.util.Random;
 
 @Mixin(MobSpawnerHelper.class)
-public class MobSpawnerHelperMixin {
-    private static Random random;
-
+public class StopAnimalDuplicationMixin {
     /**
-     * Increase this to a higher value between 0.0f and 0.1f to increase the total animal mob-cap.
+     * Increase this to a higher value between 0.0f and 1.0f to increase the total animal mob-cap.
      */
     @Redirect(method = "method_3800", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/biome/Biome;getMaxSpawnLimit()F"))
     private static float increaseAnimalSpawns(Biome instance) {

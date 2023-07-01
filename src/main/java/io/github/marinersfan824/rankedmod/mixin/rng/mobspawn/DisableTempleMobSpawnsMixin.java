@@ -1,4 +1,4 @@
-package io.github.marinersfan824.rankedmod.mixin.rng;
+package io.github.marinersfan824.rankedmod.mixin.rng.mobspawn;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(HostileEntity.class)
-public class TempleMobSpawnMixin {
+public class DisableTempleMobSpawnsMixin {
     @Inject(method = "method_3087", at = @At("HEAD"), cancellable = true)
     private void checkIfInTemple(CallbackInfoReturnable<Boolean> cir) {
         Entity thisEntity = (Entity) (Object) this;

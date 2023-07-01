@@ -1,4 +1,4 @@
-package io.github.marinersfan824.rankedmod.mixin.rng;
+package io.github.marinersfan824.rankedmod.mixin.rng.loot;
 
 import io.github.marinersfan824.rankedmod.RNGStreamGenerator;
 import io.github.marinersfan824.rankedmod.mixinterface.ILevelProperties;
