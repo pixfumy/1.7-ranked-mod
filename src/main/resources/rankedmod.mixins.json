@@ -31,7 +31,8 @@
     "worldgen.SpiralStaircaseMixin",
     "worldgen.StartPieceMixin",
     "worldgen.SurfaceChunkGeneratorMixin",
-    "worldgen.TempleLootMixin"
+    "worldgen.templeloot.IronWeightMixin",
+    "worldgen.templeloot.Minimum1IronPerChestMixin"
   ],
   "client": [
   ],

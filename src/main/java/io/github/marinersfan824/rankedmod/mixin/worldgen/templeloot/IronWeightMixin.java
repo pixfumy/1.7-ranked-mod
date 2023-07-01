@@ -1,4 +1,4 @@
-package io.github.marinersfan824.rankedmod.mixin.worldgen;
+package io.github.marinersfan824.rankedmod.mixin.worldgen.templeloot;
 
 import net.minecraft.class_5;
 import org.spongepowered.asm.mixin.Mixin;
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Slice;
  * @author KingContaria
  */
 @Mixin(class_5.class)
-public class TempleLootMixin {
+public class IronWeightMixin {
     @ModifyArg(
         method = {"<clinit>"},
         at = @At(
@@ -27,7 +27,7 @@ public class TempleLootMixin {
         )
     )
     private static int increaseIron(int weight) {
-        return 17;
+        return 10; // same as vanilla for now, we'll see how broken this is in addition to 1 guaranteed iron per chest
     }
 
 }
