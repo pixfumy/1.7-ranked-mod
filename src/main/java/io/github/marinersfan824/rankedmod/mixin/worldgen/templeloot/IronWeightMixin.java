@@ -27,7 +27,7 @@ public class IronWeightMixin {
         )
     )
     private static int increaseIron(int weight) {
-        return 10; // same as vanilla for now, we'll see how broken this is in addition to 1 guaranteed iron per chest
+        return 7; // vanilla value is 7
     }
 
 }
