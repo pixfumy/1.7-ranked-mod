@@ -22,7 +22,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.marinersfan824.rankedmod.Main"
+      "net.pixfumy.rankedmod.Main"
     ]
   },
   "mixins": [

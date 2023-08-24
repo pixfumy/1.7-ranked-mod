@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.marinersfan824.rankedmod.mixin",
+  "package": "net.pixfumy.rankedmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "TitleScreenMixin",
@@ -28,7 +28,7 @@
     "worldgen.IncreaseNetherFortressesMixin",
     "worldgen.RemoveDesertHillsMixin",
     "worldgen.RemoveFlowingLavaBelowY60Mixin",
-    "worldgen.RemoveLavaLakesBelowY60Mixin",
+    "worldgen.RemoveLavaLakesBelowY57Mixin",
     "worldgen.RemoveRavineMixin",
     "worldgen.stronghold.EndPortalRoomMixin",
     "worldgen.stronghold.LibraryMixin",
