@@ -4,7 +4,6 @@
   "package": "net.pixfumy.rankedmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "TitleScreenMixin",
     "rng.LevelPropertiesMixin",
     "rng.loot.BlazeEntityMixin",
     "rng.loot.ChickenEntityMixin",
@@ -24,6 +23,9 @@
     "rng.mobspawn.StopAnimalDuplicationMixin",
     "rng.playerspawnstandardization.MinecraftServerMixin",
     "rng.playerspawnstandardization.ServerPlayerEntityMixin",
+    "TitleScreenMixin",
+    "worldgen.end.StandardizeEndTowerDimensionsMixin",
+    "worldgen.end.StandardizeEndTowerLocationsMixin",
     "worldgen.IncreaseLavaPoolsMixin",
     "worldgen.IncreaseNetherFortressesMixin",
     "worldgen.RemoveDesertHillsMixin",
