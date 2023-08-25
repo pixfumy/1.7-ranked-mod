@@ -4,6 +4,9 @@
   "package": "net.pixfumy.rankedmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "rng.dragon.StandardizeDragonRNGMixin",
+    "rng.dragon.StandardizeDragonPartRNGMixin",
+    "rng.dragon.StandardizeDragonInitialAngleMixin",
     "rng.LevelPropertiesMixin",
     "rng.loot.BlazeEntityMixin",
     "rng.loot.ChickenEntityMixin",
