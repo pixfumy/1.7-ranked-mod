@@ -2,6 +2,8 @@
 A mod for 1.7 ranked that makes major sources of RNG consistent between different players playing on the same seed.
 
 - Endermen, blaze, spider, sheep, cow, pig, and chicken rates are all standardized.
+- Dragon RNG is standardized modulo player RNG
+- End towers are standardized
 - Blaze spawns are standardized
 - Eye breaks are standardized
 - Flint RNG is standardized
